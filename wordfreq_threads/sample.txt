@@ -1,0 +1,6 @@
+Multithreading allows a program to run multiple tasks concurrently.
+This lab demonstrates how threads can process parts of a file at the same time.
+Word frequency counting is a common example used in operating systems courses.
+This example uses Python threads to count words in parallel.
+
+
