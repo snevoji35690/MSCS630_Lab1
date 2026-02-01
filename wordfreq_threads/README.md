@@ -2,12 +2,14 @@ Project Title
 
 Multithreaded Word Frequency Counter
 
+
 Description
 
 This program demonstrates the use of multithreading to process a text file concurrently.
 The input file is divided into N segments, and each segment is processed by a separate thread to compute word-frequency counts. After all threads complete execution, the main process consolidates the intermediate results into a final word-frequency count.
 
 This project was developed as part of an Operating Systems laboratory assignment to illustrate concurrency and thread synchronization.
+
 
 Requirements
 
@@ -17,6 +19,7 @@ macOS, Linux, or Windows
 
 No external libraries required (uses standard Python libraries only)
 
+
 Files Included
 
 wordfreq.py – Main Python program implementing multithreaded word frequency counting
@@ -25,7 +28,6 @@ sample.txt – Sample input text file for testing
 
 README.md – Instructions for compiling and running the program
 
-report.docx / report.pdf – Project report describing design and implementation
 
 How to Run the Program
 
@@ -44,6 +46,7 @@ Where:
 sample.txt is the input text file
 
 4 is the number of segments (threads)
+
 
 Program Output
 
